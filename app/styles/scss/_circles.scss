@@ -1,0 +1,35 @@
+.circles {
+    position: relative;
+    .circle1 {
+        box-sizing: border-box;
+        position: absolute;
+        width: 600px;
+        height: 600px;
+        left: 646px;
+        top: 115px;
+        border: 37px solid #F3B67D;
+        border-radius: 50%;
+    }
+    .circle2 {
+        position: absolute;
+        width: 600px;
+        height: 600px;
+        left: 646px;
+        top: 119px;
+        border: 37px solid #F3B67D;
+        filter: blur(40px);
+        border-radius: 50%;
+        animation: shadow-animation 2.5s ease infinite 1.5s;
+        transform-origin: center;
+    }
+    .line1 {
+        position: absolute;
+        width: 1925px;
+        height: 1px;
+        top: 412px;
+        background: #FFC783;
+        filter: blur(7px);
+        transform: matrix(1, 0, 0, -1, 0, 0);
+        animation: expandLine 0.7s ease;
+    }
+}

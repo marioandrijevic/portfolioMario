@@ -1,0 +1,39 @@
+.form-cta {
+    display: flex;
+    width: 1176px;
+    margin: auto;
+    margin-top: 130px;
+}
+
+.circles2 {
+    position: relative;
+    max-width: 100%;
+    padding-top: 100px;
+    display: flex;
+}
+
+.circle3 {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    left: 646px;
+    top: 115px;
+    border: 37px solid #F3B67D;
+    border-radius: 50%;
+}
+
+.circle4 {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    left: 646px;
+    top: 119px;
+    border: 37px solid #F3B67D;
+    filter: blur(40px);
+    border-radius: 50%;
+    animation: smallCircleAnimation 3s linear infinite normal;
+}
+
+.expand {
+    box-shadow: 0 0 40px #F3B67D;
+}

@@ -1,0 +1,39 @@
+@keyframes shadow-animation {
+    0% {
+        border: 37px solid #F3B67D;
+        box-shadow: 0 0 10px #F3B67D;
+    }
+    50% {
+        border: 37px solid #eee2c0;
+        box-shadow: 0 0 70px #f8f0e5;
+    }
+    100% {
+        border: 37px solid #aa825e;
+        box-shadow: 0 0 10px #aa825e;
+    }
+}
+
+@keyframes expandLine {
+    0% {
+        transform: scale(0);
+    }
+    50% {}
+    100% {
+        transform: scale(+1);
+    }
+}
+
+@keyframes smallCircleAnimation {
+    0% {
+        transform: rotate(0deg);
+        box-shadow: 1px 15px 2px #aa825e;
+    }
+    50% {
+        transform: rotate(180deg);
+        box-shadow: 1px 15px 2px #80d3ac;
+    }
+    100% {
+        transform: rotate(360deg);
+        box-shadow: 1px 15px 2px #5a3864;
+    }
+}

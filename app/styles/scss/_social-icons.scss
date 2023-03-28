@@ -1,0 +1,14 @@
+.social-icons {
+    position: absolute;
+    width: 209.99px;
+    height: 33px;
+    left: 1604px;
+    top: 900px;
+    display: flex;
+    gap: 20px;
+    img:hover {
+        object-fit: contain;
+        transition: transform 0.3s ease-in-out;
+        transform: scale(1.2);
+    }
+}

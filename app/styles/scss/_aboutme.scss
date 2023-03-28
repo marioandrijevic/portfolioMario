@@ -1,0 +1,78 @@
+.name1 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 45px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.075em;
+    color: #FFFFFF;
+    position: absolute;
+    width: 377px;
+    height: 48px;
+    left: 771px;
+    top: 250px;
+}
+
+.line2 {
+    background: radial-gradient(50% 50% at 50% 50%, #F3B67D 0%, rgba(0, 0, 0, 0) 100%);
+    filter: blur(4.5px);
+    position: absolute;
+    width: 1641px;
+    height: 9px;
+    left: 139px;
+    top: 300px;
+}
+
+.cta-wrapper2 {
+    position: relative;
+    .shortDescription {
+        position: absolute;
+        width: 686px;
+        height: 361px;
+        left: 111px;
+        top: 240px;
+        font-family: 'Kanit';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.02em;
+        color: #F2F2F2;
+    }
+}
+
+.picture-wrapper {
+    position: relative;
+    .mario1 {
+        position: absolute;
+        width: 229px;
+        height: 305px;
+        left: 1109px;
+        top: 234px;
+        object-fit: cover;
+        &:hover {
+            transition: transform 0.5s ease-in-out;
+            transform: scale(1.2);
+            box-shadow: 0px 4px 15px 1px rgba(243, 182, 125, 0.25);
+        }
+    }
+    .mario2 {
+        position: absolute;
+        width: 231.52px;
+        height: 309px;
+        left: 1368px;
+        top: 326px;
+        object-fit: cover;
+        &:hover {
+            transition: transform 0.5s ease-in-out;
+            transform: scale(1.2);
+            box-shadow: 0px 4px 15px 1px rgba(243, 182, 125, 0.25);
+        }
+    }
+}
