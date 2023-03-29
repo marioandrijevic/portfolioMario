@@ -37,3 +37,24 @@
         box-shadow: 1px 15px 2px #5a3864;
     }
 }
+
+@keyframes slide-in {
+    100% {
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}
+
+@keyframes slide-in-l {
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+
+@keyframes slide-in-r {
+    100% {
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}

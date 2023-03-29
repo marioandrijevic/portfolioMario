@@ -19,12 +19,12 @@
         border: 37px solid #F3B67D;
         filter: blur(40px);
         border-radius: 50%;
-        animation: shadow-animation 2.5s ease infinite 1.5s;
+        animation: shadow-animation 2.5s ease infinite 3s;
         transform-origin: center;
     }
     .line1 {
         position: absolute;
-        width: 1925px;
+        width: 1920px;
         height: 1px;
         top: 412px;
         background: #FFC783;

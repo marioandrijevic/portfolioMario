@@ -58,6 +58,7 @@ a {
     display: flex;
     flex-direction: column;
     margin-right: 25px;
+    overflow: hidden;
     .name {
         font-family: 'Poppins';
         font-style: normal;
@@ -70,6 +71,9 @@ a {
         color: #F3B67D;
         display: flex;
         justify-content: end;
+        opacity: 0;
+        transform: translateX(+100%);
+        animation: slide-in 1s forwards 1.5s;
     }
     .surname {
         font-family: 'Poppins';
@@ -82,5 +86,13 @@ a {
         letter-spacing: 0.055em;
         color: #F3B67D;
         display: flex;
+        opacity: 0;
+        transform: translateX(+100%);
+        animation: slide-in 1s forwards 1.5s;
+    }
+    .no-animation {
+        animation: none;
+        opacity: 1;
+        transform: translateX(0%);
     }
 }
